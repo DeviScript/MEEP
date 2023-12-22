@@ -1,0 +1,90 @@
+/* CSS for centering the video and other styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#about {
+    max-width: 800px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    color: #003366;
+}
+
+#about h3 {
+    color: #003366;
+}
+
+#about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style for the main content section */
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the video iframe */
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Style for the about section */
+#about {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
